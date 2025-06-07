@@ -1,0 +1,69 @@
+car: Very simple icon-style cartoon image for language learning app.
+
+A car.
+bus: Very simple icon-style cartoon image for language learning app.
+
+A bus.
+bicycle: Very simple icon-style cartoon image for language learning app.
+
+A bicycle.
+car: Very simple icon-style cartoon image for language learning app.
+ Off-white background consistent over all images. 
+A car.
+bus: Very simple icon-style cartoon image for language learning app.
+ Off-white background consistent over all images. 
+A bus.
+bicycle: Very simple icon-style cartoon image for language learning app.
+ Off-white background consistent over all images. 
+A bicycle.
+motorcycle: Very simple icon-style cartoon image for language learning app.
+ Off-white background consistent over all images. 
+A motorcycle.
+truck: Very simple icon-style cartoon image for language learning app.
+ Off-white background consistent over all images. 
+A truck.
+van: Very simple icon-style cartoon image for language learning app.
+ Off-white background consistent over all images. 
+A van.
+taxi: Very simple icon-style cartoon image for language learning app.
+ Off-white background consistent over all images. 
+A taxi.
+ambulance: Very simple icon-style cartoon image for language learning app.
+ Off-white background consistent over all images. 
+A ambulance.
+fire truck: Very simple icon-style cartoon image for language learning app.
+ Off-white background consistent over all images. 
+A fire truck.
+police car: Very simple icon-style cartoon image for language learning app.
+ Off-white background consistent over all images. 
+A police car.
+train: Very simple icon-style cartoon image for language learning app.
+ Off-white background consistent over all images. 
+A train.
+tram: Very simple icon-style cartoon image for language learning app.
+ Off-white background consistent over all images. 
+A tram.
+metro: Very simple icon-style cartoon image for language learning app.
+ Off-white background consistent over all images. 
+A metro.
+tractor: Very simple icon-style cartoon image for language learning app.
+ Off-white background consistent over all images. 
+A tractor.
+airplane: Very simple icon-style cartoon image for language learning app.
+ Off-white background consistent over all images. 
+A airplane.
+helicopter: Very simple icon-style cartoon image for language learning app.
+ Off-white background consistent over all images. 
+A helicopter.
+hot air balloon: Very simple icon-style cartoon image for language learning app.
+ Off-white background consistent over all images. 
+A hot air balloon.
+drone: Very simple icon-style cartoon image for language learning app.
+ Off-white background consistent over all images. 
+A drone.
+boat: Very simple icon-style cartoon image for language learning app.
+ Off-white background consistent over all images. 
+A boat.
+ship: Very simple icon-style cartoon image for language learning app.
+ Off-white background consistent over all images. 
+A ship.
