@@ -1,0 +1,42 @@
+dog: Minimalist cartoon style image for language learning app.
+Solid light gray background.
+A dog.
+cat: Minimalist cartoon style image for language learning app.
+Solid light gray background.
+A cat.
+cow: Minimalist cartoon style image for language learning app.
+Solid light gray background.
+A cow.
+horse: Minimalist cartoon style image for language learning app.
+Solid light gray background.
+A horse.
+dog: Flat vector-style icon illustration for a language learning app. Centered subject. No background elements. Solid light gray background. Thick black outlines. No text. Only a single, simple cartoon of a dog, nothing else.
+cat: Flat vector-style icon illustration for a language learning app. Centered subject. No background elements. Solid light gray background. Thick black outlines. No text. Only a single, simple cartoon of a cat, nothing else.
+cow: Flat vector-style icon illustration for a language learning app. Centered subject. No background elements. Solid light gray background. Thick black outlines. No text. Only a single, simple cartoon of a cow, nothing else.
+horse: Flat vector-style icon illustration for a language learning app. Centered subject. No background elements. Solid light gray background. Thick black outlines. No text. Only a single, simple cartoon of a horse, nothing else.
+dog: Simple cartoon drawing of a dog, centered on a plain light gray background. No text. No extra objects. Thick black outlines. Only the dog, in a clean, child-friendly style.
+cat: Simple cartoon drawing of a cat, centered on a plain light gray background. No text. No extra objects. Thick black outlines. Only the cat, in a clean, child-friendly style.
+cow: Simple cartoon drawing of a cow, centered on a plain light gray background. No text. No extra objects. Thick black outlines. Only the cow, in a clean, child-friendly style.
+horse: Simple cartoon drawing of a horse, centered on a plain light gray background. No text. No extra objects. Thick black outlines. Only the horse, in a clean, child-friendly style.
+pig: Simple cartoon drawing of a pig, centered on a plain light gray background. No text. No extra objects. Thick black outlines. Only the pig, in a clean, child-friendly style.
+sheep: Simple cartoon drawing of a sheep, centered on a plain light gray background. No text. No extra objects. Thick black outlines. Only the sheep, in a clean, child-friendly style.
+mouse: Simple cartoon drawing of a mouse, centered on a plain light gray background. No text. No extra objects. Thick black outlines. Only the mouse, in a clean, child-friendly style.
+rat: Simple cartoon drawing of a rat, centered on a plain light gray background. No text. No extra objects. Thick black outlines. Only the rat, in a clean, child-friendly style.
+rabbit: Simple cartoon drawing of a rabbit, centered on a plain light gray background. No text. No extra objects. Thick black outlines. Only the rabbit, in a clean, child-friendly style.
+bear: Simple cartoon drawing of a bear, centered on a plain light gray background. No text. No extra objects. Thick black outlines. Only the bear, in a clean, child-friendly style.
+lion: Simple cartoon drawing of a lion, centered on a plain light gray background. No text. No extra objects. Thick black outlines. Only the lion, in a clean, child-friendly style.
+elephant: Simple cartoon drawing of a elephant, centered on a plain light gray background. No text. No extra objects. Thick black outlines. Only the elephant, in a clean, child-friendly style.
+chicken: Simple cartoon drawing of a chicken, centered on a plain light gray background. No text. No extra objects. Thick black outlines. Only the chicken, in a clean, child-friendly style.
+seagull: Simple cartoon drawing of a seagull, centered on a plain light gray background. No text. No extra objects. Thick black outlines. Only the seagull, in a clean, child-friendly style.
+pigeon: Simple cartoon drawing of a pigeon, centered on a plain light gray background. No text. No extra objects. Thick black outlines. Only the pigeon, in a clean, child-friendly style.
+fish: Simple cartoon drawing of a fish, centered on a plain light gray background. No text. No extra objects. Thick black outlines. Only the fish, in a clean, child-friendly style.
+butterfly: Simple cartoon drawing of a butterfly, centered on a plain light gray background. No text. No extra objects. Thick black outlines. Only the butterfly, in a clean, child-friendly style.
+bee: Simple cartoon drawing of a bee, centered on a plain light gray background. No text. No extra objects. Thick black outlines. Only the bee, in a clean, child-friendly style.
+fly: Simple cartoon drawing of a fly, centered on a plain light gray background. No text. No extra objects. Thick black outlines. Only the fly, in a clean, child-friendly style.
+mosquito: Simple cartoon drawing of a mosquito, centered on a plain light gray background. No text. No extra objects. Thick black outlines. Only the mosquito, in a clean, child-friendly style.
+dog: Simple cartoon drawing of a dog. Plain light gray background. No text. No extra objects. Thick black outlines. Only the dog, in a clean, child-friendly style.
+cat: Simple cartoon drawing of a cat. Plain light gray background. No text. No extra objects. Thick black outlines. Only the cat, in a clean, child-friendly style.
+chicken: Simple cartoon drawing of a chicken. Plain light gray background. No text. No extra objects. Thick black outlines. Only the chicken, in a clean, child-friendly style.
+lion: Simple cartoon drawing of a lion. Plain light gray background. No text. No extra objects. Thick black outlines. Only the lion, in a clean, child-friendly style.
+rabbit: Simple cartoon drawing of a rabbit. Plain light gray background. No text. No extra objects. Thick black outlines. Only the rabbit, in a clean, child-friendly style.
+mosquito: Simple cartoon drawing of a mosquito. Plain light gray background. No text. No extra objects. Thick black outlines. Only the mosquito, in a clean, child-friendly style.
