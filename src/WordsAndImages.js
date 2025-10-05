@@ -37,11 +37,6 @@ const wordsAndImages = [
   { en: 'embarrassed', fi: 'nolo', img: 'embarrassed.png' },
   { en: 'frustrated', fi: 'turhautunut', img: 'frustrated.png' },
   { en: 'surprised', fi: 'yllättynyt', img: 'surprised.png' }
-
-
-
-
-  //{ en: 'confused', fi: 'hämmentynyt', img: 'confused.png' }
 ];
 
 export default wordsAndImages;

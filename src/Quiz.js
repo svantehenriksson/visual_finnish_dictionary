@@ -96,7 +96,7 @@ const Quiz = ({ wordsAndImages }) => {
     <div className="quiz-container">
       <h2>Mikä sana?</h2>
       <img
-        src={`/${current.img}`}
+        src={`${process.env.PUBLIC_URL}/${current.img}`}
         alt={current.fi}
         className="quiz-image"
       />

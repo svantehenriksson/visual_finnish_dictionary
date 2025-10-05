@@ -1,7 +1,7 @@
 .quiz-container {
   text-align: center;
   padding: 1rem;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Orbitron', sans-serif;
   background-color: white;
   color: #222;
   position: relative;
@@ -35,7 +35,7 @@
   padding: 1.5rem 2.5rem;
   font-size: 2rem;
   border-radius: 1rem;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Orbitron', sans-serif;
   cursor: pointer;
   max-width: 300px;
 }
@@ -53,7 +53,7 @@
 .floating-feedback {
   position: absolute;
   font-size: 2.2rem;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Orbitron', sans-serif;
   background: rgba(255, 255, 255, 0.95);
   padding: 1rem 2rem;
   border-radius: 1rem;

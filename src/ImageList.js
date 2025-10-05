@@ -44,7 +44,7 @@ const ImageList = ({ wordsAndImages }) => {
           onClick={() => handleTouchOrClick(index)}
           onTouchStart={() => handleTouchOrClick(index)}
         >
-          <img src={`/${item.img}`} alt={item.fi} />
+          <img src={`${process.env.PUBLIC_URL}/${item.img}`} alt={item.fi} />
           <div className="caption">
             {hoveredIndex === index ? item.en : item.fi}
           </div>

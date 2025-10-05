@@ -29,7 +29,7 @@ function App() {
           <h1 className="header">Visual Dictionary</h1>
 
               <div className="dictionary-bounce">
-                <img src="/dictionary.png" alt="dictionary" className="dictionary-image" />
+                <img src={`${process.env.PUBLIC_URL}/dictionary.png`} alt="dictionary" className="dictionary-image" />
               </div>
           <div className="topic-list">
             {topicKeys.map((key, idx) => (

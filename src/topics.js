@@ -1,315 +1,541 @@
 export const topics = [
-  {
-    name: 'Tunteet — Emotions',
-    wordsAndImages: [
-      { en: 'happy', fi: 'iloinen', img: 'emotions/happy.png' },
-      { en: 'excited', fi: 'innostunut', img: 'emotions/excited.png' },
-      { en: 'proud', fi: 'ylpeä', img: 'emotions/proud.png' },
-      { en: 'in love', fi: 'ihastunut', img: 'emotions/inlove.png' },
-      { en: 'grateful', fi: 'kiitollinen', img: 'emotions/grateful.png' },
-      { en: 'confident', fi: 'itsevarma', img: 'emotions/confident.png' },
-      { en: 'sad', fi: 'surullinen', img: 'emotions/sad.png' },
-      { en: 'angry', fi: 'vihainen', img: 'emotions/angry.png' },
-      { en: 'scared', fi: 'pelokas', img: 'emotions/scared.png' },
-      { en: 'embarrassed', fi: 'nolo', img: 'emotions/embarrassed.png' },
-      { en: 'frustrated', fi: 'turhautunut', img: 'emotions/frustrated.png' },
-      { en: 'surprised', fi: 'yllättynyt', img: 'emotions/surprised.png' }
-    ]
-  },
-  {
-    name: 'Eläimet — Animals',
-    wordsAndImages: [
-      { en: 'bear', fi: 'karhu', img: 'animals/bear.png' },
-      { en: 'bee', fi: 'mehiläinen', img: 'animals/bee.png' },
-      { en: 'bird', fi: 'lintu', img: 'animals/bird.png' },
-      { en: 'butterfly', fi: 'perhonen', img: 'animals/butterfly.png' },
-      { en: 'cat', fi: 'kissa', img: 'animals/cat.png' },
-      { en: 'chicken', fi: 'kana', img: 'animals/chicken.png' },
-      { en: 'cow', fi: 'lehmä', img: 'animals/cow.png' },
-      { en: 'dog', fi: 'koira', img: 'animals/dog.png' },
-      { en: 'elephant', fi: 'norsu', img: 'animals/elephant.png' },
-      { en: 'fish', fi: 'kala', img: 'animals/fish.png' },
-      { en: 'fly', fi: 'kärpänen', img: 'animals/fly.png' },
-      { en: 'horse', fi: 'hevonen', img: 'animals/horse.png' },
-      { en: 'lion', fi: 'leijona', img: 'animals/lion.png' },
-      { en: 'mosquito', fi: 'hyttynen', img: 'animals/mosquito.png' },
-      { en: 'mouse', fi: 'hiiri', img: 'animals/mouse.png' },
-      { en: 'pig', fi: 'sika', img: 'animals/pig.png' },
-      { en: 'rabbit', fi: 'jänis', img: 'animals/rabbit.png' },
-      { en: 'rat', fi: 'rotta', img: 'animals/rat.png' },
-      { en: 'seagull', fi: 'lokki', img: 'animals/seagull.png' },
-      { en: 'sheep', fi: 'lammas', img: 'animals/sheep.png' }
-    ]
-  },
-  {
-    name: 'Ruoka — Food',
-    wordsAndImages: [
-      { en: 'bread', fi: 'leipä', img: 'food/bread.png' },
-      { en: 'butter', fi: 'voi', img: 'food/butter.png' },
-      { en: 'carrot', fi: 'porkkana', img: 'food/carrot.png' },
-      { en: 'cheese', fi: 'juusto', img: 'food/cheese.png' },
-      { en: 'cucumber', fi: 'kurkku', img: 'food/cucumber.png' },
-      { en: 'egg', fi: 'kananmuna', img: 'food/egg.png' },
-      { en: 'garlic', fi: 'valkosipuli', img: 'food/garlic.png' },
-      { en: 'milk', fi: 'maito', img: 'food/milk.png' },
-      { en: 'onion', fi: 'sipuli', img: 'food/onion.png' },
-      { en: 'pasta', fi: 'pasta', img: 'food/pasta.png' },
-      { en: 'potato', fi: 'peruna', img: 'food/potato.png' },
-      { en: 'rice', fi: 'riisi', img: 'food/rice.png' },
-      { en: 'salad', fi: 'salaatti', img: 'food/salad.png' },
-      { en: 'soup', fi: 'keitto', img: 'food/soup.png' },
-      { en: 'yoghurt', fi: 'jogurtti', img: 'food/yoghurt.png' }
-    ]
-  },
-  {
-    name: 'Hedelmät — Fruits',
-    wordsAndImages: [
-      { en: 'apple', fi: 'omena', img: 'fruits/apple.png' },
-      { en: 'banana', fi: 'banaani', img: 'fruits/banana.png' },
-      { en: 'blueberry', fi: 'mustikka', img: 'fruits/blueberry.png' },
-      { en: 'cherry', fi: 'kirsikka', img: 'fruits/cherry.png' },
-      { en: 'grapefruit', fi: 'greippi', img: 'fruits/grapefruit.png' },
-      { en: 'grapes', fi: 'viinirypäleet', img: 'fruits/grapes.png' },
-      { en: 'kiwi', fi: 'kiivi', img: 'fruits/kiwi.png' },
-      { en: 'lemon', fi: 'sitruuna', img: 'fruits/lemon.png' },
-      { en: 'lime', fi: 'limetti', img: 'fruits/lime.png' },
-      { en: 'mango', fi: 'mango', img: 'fruits/mango.png' },
-      { en: 'orange', fi: 'appelsiini', img: 'fruits/orange.png' },
-      { en: 'peach', fi: 'persikka', img: 'fruits/peach.png' },
-      { en: 'pear', fi: 'päärynä', img: 'fruits/pear.png' },
-      { en: 'pineapple', fi: 'ananas', img: 'fruits/pineapple.png' },
-      { en: 'plum', fi: 'luumu', img: 'fruits/plum.png' },
-      { en: 'raspberry', fi: 'vadelma', img: 'fruits/raspberry.png' },
-      { en: 'strawberry', fi: 'mansikka', img: 'fruits/strawberry.png' },
-      { en: 'watermelon', fi: 'vesimeloni', img: 'fruits/watermelon.png' }
-    ]
-  },
-  {
-    name: 'Ajoneuvot — Vehicles',
-    wordsAndImages: [
-      { en: 'airplane', fi: 'lentokone', img: 'vehicles/airplane.png' },
-      { en: 'ambulance', fi: 'ambulanssi', img: 'vehicles/ambulance.png' },
-      { en: 'bicycle', fi: 'polkupyörä', img: 'vehicles/bicycle.png' },
-      { en: 'boat', fi: 'vene', img: 'vehicles/boat.png' },
-      { en: 'bus', fi: 'bussi', img: 'vehicles/bus.png' },
-      { en: 'car', fi: 'auto', img: 'vehicles/car.png' },
-      { en: 'drone', fi: 'drooni', img: 'vehicles/drone.png' },
-      { en: 'fire truck', fi: 'paloauto', img: 'vehicles/fire_truck.png' },
-      { en: 'helicopter', fi: 'helikopteri', img: 'vehicles/helicopter.png' },
-      { en: 'hot air balloon', fi: 'kuumailmapallo', img: 'vehicles/hot_air_balloon.png' },
-      { en: 'metro', fi: 'metro', img: 'vehicles/metro.png' },
-      { en: 'motorcycle', fi: 'moottoripyörä', img: 'vehicles/motorcycle.png' },
-      { en: 'police car', fi: 'poliisiauto', img: 'vehicles/police_car.png' },
-      { en: 'taxi', fi: 'taksi', img: 'vehicles/taxi.png' },
-      { en: 'tractor', fi: 'traktori', img: 'vehicles/tractor.png' },
-      { en: 'train', fi: 'juna', img: 'vehicles/train.png' },
-      { en: 'tram', fi: 'raitiovaunu', img: 'vehicles/tram.png' },
-      { en: 'truck', fi: 'rekka', img: 'vehicles/truck.png' },
-      { en: 'van', fi: 'pakettiauto', img: 'vehicles/van.png' }
-    ]
-  },
-
-  {
-  name: 'Koti — Home',
-  wordsAndImages: [
-    { en: 'bathroom', fi: 'kylpyhuone', img: 'home/bathroom.png' },
-    { en: 'bed', fi: 'sänky', img: 'home/bed.png' },
-    { en: 'bedroom', fi: 'makuuhuone', img: 'home/bedroom.png' },
-    { en: 'blanket', fi: 'viltti', img: 'home/blanket.png' },
-    { en: 'carpet', fi: 'matto', img: 'home/carpet.png' },
-    { en: 'ceiling', fi: 'katto', img: 'home/ceiling.png' },
-    { en: 'chair', fi: 'tuoli', img: 'home/chair.png' },
-    { en: 'cupboard', fi: 'kaappi', img: 'home/cupboard.png' },
-    { en: 'door', fi: 'ovi', img: 'home/door.png' },
-    { en: 'floor', fi: 'lattia', img: 'home/floor.png' },
-    { en: 'home', fi: 'koti', img: 'home/home.png' },
-    { en: 'house', fi: 'talo', img: 'home/house.png' },
-    { en: 'kitchen', fi: 'keittiö', img: 'home/kitchen.png' },
-    { en: 'lamp', fi: 'lamppu', img: 'home/lamp.png' },
-    { en: 'light', fi: 'valo', img: 'home/light.png' },
-    { en: 'living room', fi: 'olohuone', img: 'home/living_room.png' },
-    { en: 'mirror', fi: 'peili', img: 'home/mirror.png' },
-    { en: 'pillow', fi: 'tyyny', img: 'home/pillow.png' },
-    { en: 'room', fi: 'huone', img: 'home/room.png' },
-    { en: 'sofa', fi: 'sohva', img: 'home/sofa.png' },
-    { en: 'table', fi: 'pöytä', img: 'home/table.png' },
-    { en: 'wall', fi: 'seinä', img: 'home/wall.png' },
-    { en: 'window', fi: 'ikkuna', img: 'home/window.png' }
-  ]
-},
-{
-  name: 'Verbit 1 — Common Verbs',
-  wordsAndImages: [
     {
-      en: 'drink',
-      fi: 'juoda',
-      img: 'verbs1/drink.jfif',
-      popup: 'Minä juon = mä juon = I drink <br/> Sinä juot = sä juot = you drink<br/> Hän juo = se juo = he/she drinks <br/> Me juomme = me juodaan = we drink <br/> Te juotte = te juotte = you all drink <br/> He juovat = ne juo = they drink <br/> Minä join = mä join = I drank <br/> Sinä joit = sä joit = you drank'
+      name: 'Tunteet — Emotions',
+      wordsAndImages: [
+        { en: 'happy', fi: 'onnellinen', img: 'emotions/happy.png' },
+        { en: 'excited', fi: 'innostunut', img: 'emotions/excited.png' },
+        { en: 'proud', fi: 'ylpeä', img: 'emotions/proud.png' },
+        { en: 'in love', fi: 'rakastunut', img: 'emotions/inlove.png' },
+        { en: 'grateful', fi: 'kiitollinen', img: 'emotions/grateful.png' },
+        { en: 'confident', fi: 'itsevarma', img: 'emotions/confident.png' },
+        { en: 'sad', fi: 'surullinen', img: 'emotions/sad.png' },
+        { en: 'angry', fi: 'vihainen', img: 'emotions/angry.png' },
+        { en: 'scared', fi: 'pelokas', img: 'emotions/scared.png' },
+        { en: 'embarrassed', fi: 'nolostunut', img: 'emotions/embarrassed.png' },
+        { en: 'frustrated', fi: 'turhautunut', img: 'emotions/frustrated.png' },
+        { en: 'surprised', fi: 'yllättynyt', img: 'emotions/surprised.png' }
+      ]
     },
     {
-      en: 'drive',
-      fi: 'ajaa',
-      img: 'verbs1/drive.jfif',
-      popup: 'Minä ajan = mä ajan = I drive <br/> Sinä ajat = sä ajat = you drive<br/> Hän ajaa = se ajaa = he/she drives <br/> Me ajamme = me ajetaan = we drive <br/> Te ajatte = te ajatte = you all drive <br/> He ajavat = ne ajaa = they drive <br/> Minä ajoin = mä ajoin = I drove <br/> Sinä ajoit = sä ajoit = you drove'
+      name: 'Eläimet — Animals',
+      wordsAndImages: [
+        { en: 'bear', fi: 'karhu', img: 'animals/bear.png' },
+        { en: 'bee', fi: 'mehiläinen', img: 'animals/bee.png' },
+        { en: 'bird', fi: 'lintu', img: 'animals/bird.png' },
+        { en: 'butterfly', fi: 'perhonen', img: 'animals/butterfly.png' },
+        { en: 'cat', fi: 'kissa', img: 'animals/cat.png' },
+        { en: 'chicken', fi: 'kana', img: 'animals/chicken.png' },
+        { en: 'cow', fi: 'lehmä', img: 'animals/cow.png' },
+        { en: 'dog', fi: 'koira', img: 'animals/dog.png' },
+        { en: 'elephant', fi: 'norsu', img: 'animals/elephant.png' },
+        { en: 'fish', fi: 'kala', img: 'animals/fish.png' },
+        { en: 'fly', fi: 'kärpänen', img: 'animals/fly.png' },
+        { en: 'horse', fi: 'hevonen', img: 'animals/horse.png' },
+        { en: 'lion', fi: 'leijona', img: 'animals/lion.png' },
+        { en: 'mosquito', fi: 'hyttynen', img: 'animals/mosquito.png' },
+        { en: 'mouse', fi: 'hiiri', img: 'animals/mouse.png' },
+        { en: 'pig', fi: 'sika', img: 'animals/pig.png' },
+        { en: 'rabbit', fi: 'kani', img: 'animals/rabbit.png' },
+        { en: 'rat', fi: 'rotta', img: 'animals/rat.png' },
+        { en: 'seagull', fi: 'lokki', img: 'animals/seagull.png' },
+        { en: 'sheep', fi: 'lammas', img: 'animals/sheep.png' }
+      ]
+    },
+    
+    
+    {
+      name: 'Ruoka — Food',
+      wordsAndImages: [
+        { en: 'bread', fi: 'leipä', img: 'food/bread.png' },
+        { en: 'butter', fi: 'voi', img: 'food/butter.png' },
+        { en: 'carrot', fi: 'porkkana', img: 'food/carrot.png' },
+        { en: 'cheese', fi: 'juusto', img: 'food/cheese.png' },
+        { en: 'cucumber', fi: 'kurkku', img: 'food/cucumber.png' },
+        { en: 'egg', fi: 'kananmuna', img: 'food/egg.png' },
+        { en: 'garlic', fi: 'valkosipuli', img: 'food/garlic.png' },
+        { en: 'milk', fi: 'maito', img: 'food/milk.png' },
+        { en: 'onion', fi: 'sipuli', img: 'food/onion.png' },
+        { en: 'pasta', fi: 'pasta', img: 'food/pasta.png' },
+        { en: 'potato', fi: 'peruna', img: 'food/potato.png' },
+        { en: 'rice', fi: 'riisi', img: 'food/rice.png' },
+        { en: 'salad', fi: 'salaatti', img: 'food/salad.png' },
+        { en: 'soup', fi: 'keitto', img: 'food/soup.png' },
+        { en: 'yoghurt', fi: 'jogurtti', img: 'food/yoghurt.png' }
+      ]
+    },
+    
+    {
+      name: 'Hedelmät — Fruits',
+      wordsAndImages: [
+        { en: 'apple', fi: 'omena', img: 'fruits/apple.png' },
+        { en: 'banana', fi: 'banaani', img: 'fruits/banana.png' },
+        { en: 'blueberry', fi: 'mustikka', img: 'fruits/blueberry.png' },
+        { en: 'cherry', fi: 'kirsikka', img: 'fruits/cherry.png' },
+        { en: 'grapefruit', fi: 'greippi', img: 'fruits/grapefruit.png' },
+        { en: 'grapes', fi: 'viinirypäleet', img: 'fruits/grapes.png' },
+        { en: 'kiwi', fi: 'kiivi', img: 'fruits/kiwi.png' },
+        { en: 'lemon', fi: 'sitruuna', img: 'fruits/lemon.png' },
+        { en: 'lime', fi: 'limetti', img: 'fruits/lime.png' },
+        { en: 'mango', fi: 'mango', img: 'fruits/mango.png' },
+        { en: 'orange', fi: 'appelsiini', img: 'fruits/orange.png' },
+        { en: 'peach', fi: 'persikka', img: 'fruits/peach.png' },
+        { en: 'pear', fi: 'päärynä', img: 'fruits/pear.png' },
+        { en: 'pineapple', fi: 'ananas', img: 'fruits/pineapple.png' },
+        { en: 'plum', fi: 'luumu', img: 'fruits/plum.png' },
+        { en: 'raspberry', fi: 'vadelma', img: 'fruits/raspberry.png' },
+        { en: 'strawberry', fi: 'mansikka', img: 'fruits/strawberry.png' },
+        { en: 'watermelon', fi: 'vesimeloni', img: 'fruits/watermelon.png' }
+      ]
+    },
+    
+    
+    {
+      name: 'Kulkuvälineet — Vehicles',
+      wordsAndImages: [
+        { en: 'airplane', fi: 'lentokone', img: 'vehicles/airplane.png' },
+        { en: 'ambulance', fi: 'ambulanssi', img: 'vehicles/ambulance.png' },
+        { en: 'bicycle', fi: 'polkupyörä', img: 'vehicles/bicycle.png' },
+        { en: 'boat', fi: 'vene', img: 'vehicles/boat.png' },
+        { en: 'bus', fi: 'bussi', img: 'vehicles/bus.png' },
+        { en: 'car', fi: 'auto', img: 'vehicles/car.png' },
+        { en: 'drone', fi: 'droni', img: 'vehicles/drone.png' },
+        { en: 'fire truck', fi: 'paloauto', img: 'vehicles/fire_truck.png' },
+        { en: 'helicopter', fi: 'helikopteri', img: 'vehicles/helicopter.png' },
+        { en: 'hot air balloon', fi: 'kuumailmapallo', img: 'vehicles/hot_air_balloon.png' },
+        { en: 'metro', fi: 'metro', img: 'vehicles/metro.png' },
+        { en: 'motorcycle', fi: 'moottoripyörä', img: 'vehicles/motorcycle.png' },
+        { en: 'police car', fi: 'poliisiauto', img: 'vehicles/police_car.png' },
+        { en: 'taxi', fi: 'taksi', img: 'vehicles/taxi.png' },
+        { en: 'tractor', fi: 'traktori', img: 'vehicles/tractor.png' },
+        { en: 'train', fi: 'juna', img: 'vehicles/train.png' },
+        { en: 'tram', fi: 'raitiovaunu', img: 'vehicles/tram.png' },
+        { en: 'truck', fi: 'kuorma-auto', img: 'vehicles/truck.png' },
+        { en: 'van', fi: 'pakettiauto', img: 'vehicles/van.png' }
+      ]
+    },
+    
+    {
+      name: 'Koti — Home',
+      wordsAndImages: [
+        { en: 'bathroom', fi: 'kylpyhuone', img: 'home/bathroom.png' },
+        { en: 'bed', fi: 'sänky', img: 'home/bed.png' },
+        { en: 'bedroom', fi: 'makuuhuone', img: 'home/bedroom.png' },
+        { en: 'blanket', fi: 'peitto', img: 'home/blanket.png' },
+        { en: 'carpet', fi: 'matto', img: 'home/carpet.png' },
+        { en: 'ceiling', fi: 'katto', img: 'home/ceiling.png' },
+        { en: 'chair', fi: 'tuoli', img: 'home/chair.png' },
+        { en: 'clock', fi: 'kello', img: 'home/clock.png' },
+        { en: 'cup', fi: 'kuppi', img: 'home/cup.png' },
+        { en: 'cupboard', fi: 'kaappi', img: 'home/cupboard.png' },
+        { en: 'dishwasher', fi: 'astianpesukone', img: 'home/dishwasher.png' },
+        { en: 'door', fi: 'ovi', img: 'home/door.png' },
+        { en: 'floor', fi: 'lattia', img: 'home/floor.png' },
+        { en: 'fork', fi: 'haarukka', img: 'home/fork.png' },
+        { en: 'fridge', fi: 'jääkaappi', img: 'home/fridge.png' },
+        { en: 'glass', fi: 'lasi', img: 'home/glass.png' },
+        { en: 'home', fi: 'koti', img: 'home/home.png' },
+        { en: 'house', fi: 'talo', img: 'home/house.png' },
+        { en: 'kitchen', fi: 'keittiö', img: 'home/kitchen.png' },
+        { en: 'knife', fi: 'veitsi', img: 'home/knife.png' },
+        { en: 'lamp', fi: 'lamppu', img: 'home/lamp.png' },
+        { en: 'light', fi: 'valo', img: 'home/light.png' },
+        { en: 'living room', fi: 'olohuone', img: 'home/living_room.png' },
+        { en: 'microwave oven', fi: 'mikroaaltouuni', img: 'home/microwave_oven.png' },
+        { en: 'mirror', fi: 'peili', img: 'home/mirror.png' },
+        { en: 'oven', fi: 'uuni', img: 'home/oven.png' },
+        { en: 'pillow', fi: 'tyyny', img: 'home/pillow.png' },
+        { en: 'plate', fi: 'lautanen', img: 'home/plate.png' },
+        { en: 'room', fi: 'huone', img: 'home/room.png' },
+        { en: 'shirt', fi: 'paita', img: 'home/shirt.png' },
+        { en: 'sink', fi: 'allas', img: 'home/sink.png' },
+        { en: 'sofa', fi: 'sohva', img: 'home/sofa.png' },
+        { en: 'spoon', fi: 'lusikka', img: 'home/spoon.png' },
+        { en: 'stove', fi: 'liesi', img: 'home/stove.png' },
+        { en: 'table', fi: 'pöytä', img: 'home/table.png' },
+        { en: 'television', fi: 'televisio', img: 'home/television.png' },
+        { en: 'wall', fi: 'seinä', img: 'home/wall.png' },
+        { en: 'washing machine', fi: 'pesukone', img: 'home/washing_machine.png' },
+        { en: 'window', fi: 'ikkuna', img: 'home/window.png' }
+      ]
+    },
+    
+    
+    {
+      name: 'Yleiset verbit — Common Verbs',
+      wordsAndImages: [
+        { en: 'drink', fi: 'juoda', img: 'verbs1/drink.jfif' },
+        { en: 'drive', fi: 'ajaa', img: 'verbs1/drive.jfif' },
+        { en: 'eat', fi: 'syödä', img: 'verbs1/eat.jfif' },
+        { en: 'give', fi: 'antaa', img: 'verbs1/give.jfif' },
+        { en: 'hear', fi: 'kuulla', img: 'verbs1/hear.jfif' },
+        { en: 'laugh', fi: 'nauraa', img: 'verbs1/laugh.jfif' },
+        { en: 'lift', fi: 'nostaa', img: 'verbs1/lift.jfif' },
+        { en: 'listen', fi: 'kuunnella', img: 'verbs1/listen.jfif' },
+        { en: 'look', fi: 'katsoa', img: 'verbs1/look.jfif' },
+        { en: 'open', fi: 'avata', img: 'verbs1/open.jfif' },
+        { en: 'pull', fi: 'vetää', img: 'verbs1/pull.jfif' },
+        { en: 'push', fi: 'työntää', img: 'verbs1/push.jfif' },
+        { en: 'run', fi: 'juosta', img: 'verbs1/run.jfif' },
+        { en: 'say', fi: 'sanoa', img: 'verbs1/say.jfif' },
+        { en: 'see', fi: 'nähdä', img: 'verbs1/see.jfif' },
+        { en: 'sit', fi: 'istua', img: 'verbs1/sit.jfif' },
+        { en: 'sleep', fi: 'nukkua', img: 'verbs1/sleep.jfif' },
+        { en: 'talk', fi: 'puhua', img: 'verbs1/talk.jfif' },
+        { en: 'think', fi: 'ajatella', img: 'verbs1/think.jfif' },
+        { en: 'walk', fi: 'kävellä', img: 'verbs1/walk.jfif' },
+        { en: 'want', fi: 'haluta', img: 'verbs1/want.jfif' },
+        { en: 'wash', fi: 'pestä', img: 'verbs1/wash.jfif' },
+        { en: 'write', fi: 'kirjoittaa', img: 'verbs1/write.jfif' }
+      ]
+    },
+    
+    
+    
+    {
+      name: 'Lisää verbejä — More Verbs',
+      wordsAndImages: [
+        { en: 'blow', fi: 'puhaltaa', img: 'verbs2/blow.jfif' },
+        { en: 'clean', fi: 'siivota', img: 'verbs2/clean.jfif' },
+        { en: 'cry', fi: 'itkeä', img: 'verbs2/cry.jfif' },
+        { en: 'dig', fi: 'kaivaa', img: 'verbs2/dig.jfif' },
+        { en: 'draw', fi: 'piirtää', img: 'verbs2/draw.jfif' },
+        { en: 'fall', fi: 'kaatua', img: 'verbs2/fall.jfif' },
+        { en: 'find', fi: 'löytää', img: 'verbs2/find.jfif' },
+        { en: 'hide', fi: 'piiloutua', img: 'verbs2/hide.jfif' },
+        { en: 'hug', fi: 'halata', img: 'verbs2/hug.jfif' },
+        { en: 'jump', fi: 'hypätä', img: 'verbs2/jump.jfif' },
+        { en: 'kiss', fi: 'suudella', img: 'verbs2/kiss.jfif' },
+        { en: 'lie down', fi: 'käydä makuulle', img: 'verbs2/lie_down.jfif' },
+        { en: 'paint', fi: 'maalata', img: 'verbs2/paint.jfif' },
+        { en: 'pay', fi: 'maksaa', img: 'verbs2/pay.jfif' },
+        { en: 'plant', fi: 'istuttaa', img: 'verbs2/plant.jfif' },
+        { en: 'ski', fi: 'hiihtää', img: 'verbs2/ski.jfif' },
+        { en: 'ski downhill', fi: 'lasketella', img: 'verbs2/ski_downhill.jfif' },
+        { en: 'smell', fi: 'haistaa', img: 'verbs2/smell.jfif' },
+        { en: 'swim', fi: 'uida', img: 'verbs2/swim.jfif' },
+        { en: 'taste', fi: 'maistaa', img: 'verbs2/taste.jfif' },
+        { en: 'throw', fi: 'heittää', img: 'verbs2/throw.jfif' },
+        { en: 'vacuum', fi: 'imuroita', img: 'verbs2/vacuum.jfif' },
+        { en: 'wake up', fi: 'herätä', img: 'verbs2/wake_up.jfif' }
+      ]
+    },
+    
+    {
+      name: 'Adjektiivit — Adjectives',
+      wordsAndImages: [
+        { en: 'bad', fi: 'huono', img: 'adjectives/bad.png' },
+        { en: 'big', fi: 'iso', img: 'adjectives/big.png' },
+        { en: 'black', fi: 'musta', img: 'adjectives/black.png' },
+        { en: 'blue', fi: 'sininen', img: 'adjectives/blue.png' },
+        { en: 'brown', fi: 'ruskea', img: 'adjectives/brown.png' },
+        { en: 'clean', fi: 'puhdas', img: 'adjectives/clean.png' },
+        { en: 'cold', fi: 'kylmä', img: 'adjectives/cold.png' },
+        { en: 'difficult', fi: 'vaikea', img: 'adjectives/difficult.png' },
+        { en: 'dirty', fi: 'likainen', img: 'adjectives/dirty.png' },
+        { en: 'easy', fi: 'helppo', img: 'adjectives/easy.png' },
+        { en: 'fast', fi: 'nopea', img: 'adjectives/fast.png' },
+        { en: 'good', fi: 'hyvä', img: 'adjectives/good.png' },
+        { en: 'green', fi: 'vihreä', img: 'adjectives/green.png' },
+        { en: 'high', fi: 'korkea', img: 'adjectives/high.png' },
+        { en: 'hot', fi: 'kuuma', img: 'adjectives/hot.png' },
+        { en: 'long', fi: 'pitkä', img: 'adjectives/long.png' },
+        { en: 'low', fi: 'matala', img: 'adjectives/low.png' },
+        { en: 'new', fi: 'uusi', img: 'adjectives/new.png' },
+        { en: 'old', fi: 'vanha', img: 'adjectives/old.png' },
+        { en: 'red', fi: 'punainen', img: 'adjectives/red.png' },
+        { en: 'short', fi: 'lyhyt', img: 'adjectives/short.png' },
+        { en: 'slow', fi: 'hidas', img: 'adjectives/slow.png' },
+        { en: 'small', fi: 'pieni', img: 'adjectives/small.png' },
+        { en: 'warm', fi: 'lämmin', img: 'adjectives/warm.png' },
+        { en: 'white', fi: 'valkoinen', img: 'adjectives/white.png' },
+        { en: 'yellow', fi: 'keltainen', img: 'adjectives/yellow.png' }
+      ]
+    },
+    
+    {
+      name: 'Vaatteet — Clothing',
+      wordsAndImages: [
+        { en: 'backpack', fi: 'reppu', img: 'clothing/backpack.png' },
+        { en: 'belt', fi: 'vyö', img: 'clothing/belt.png' },
+        { en: 'boots', fi: 'saappaat', img: 'clothing/boots.png' },
+        { en: 'cap', fi: 'lippis', img: 'clothing/cap.png' },
+        { en: 'dress', fi: 'mekko', img: 'clothing/dress.png' },
+        { en: 'earrings', fi: 'korvakorut', img: 'clothing/earrings.png' },
+        { en: 'gloves', fi: 'käsineet', img: 'clothing/gloves.png' },
+        { en: 'handbag', fi: 'käsilaukku', img: 'clothing/handbag.png' },
+        { en: 'hat', fi: 'hattu', img: 'clothing/hat.png' },
+        { en: 'jacket', fi: 'takki', img: 'clothing/jacket.png' },
+        { en: 'jeans', fi: 'farkut', img: 'clothing/jeans.png' },
+        { en: 'necklace', fi: 'kaulakoru', img: 'clothing/necklace.png' },
+        { en: 'ring', fi: 'sormus', img: 'clothing/ring.png' },
+        { en: 'sandals', fi: 'sandaalit', img: 'clothing/sandals.png' },
+        { en: 'scarf', fi: 'huivi', img: 'clothing/scarf.png' },
+        { en: 'shirt', fi: 'paita', img: 'clothing/shirt.png' },
+        { en: 'shoes', fi: 'kengät', img: 'clothing/shoes.png' },
+        { en: 'shorts', fi: 'shortsit', img: 'clothing/shorts.png' },
+        { en: 'skirt', fi: 'hame', img: 'clothing/skirt.png' },
+        { en: 'socks', fi: 'sukat', img: 'clothing/socks.png' },
+        { en: 'sunglasses', fi: 'aurinkolasit', img: 'clothing/sunglasses.png' },
+        { en: 'sweater', fi: 'villapaita', img: 'clothing/sweater.png' },
+        { en: 't-shirt', fi: 'T-paita', img: 'clothing/t-shirt.png' },
+        { en: 'tie', fi: 'solmio', img: 'clothing/tie.png' },
+        { en: 'trousers', fi: 'housut', img: 'clothing/trousers.png' },
+        { en: 'umbrella', fi: 'sateenvarjo', img: 'clothing/umbrella.png' },
+        { en: 'wallet', fi: 'lompakko', img: 'clothing/wallet.png' },
+        { en: 'watch', fi: 'rannekello', img: 'clothing/watch.png' }
+      ]
+    },
+    
+    {
+      name: 'Terveys — Health',
+      wordsAndImages: [
+        { en: 'ambulance', fi: 'ambulanssi', img: 'health/ambulance.png' },
+        { en: 'bacteria', fi: 'bakteeri', img: 'health/bacteria.png' },
+        { en: 'bandage', fi: 'side', img: 'health/bandage.png' },
+        { en: 'cough', fi: 'yskä', img: 'health/cough.png' },
+        { en: 'dentist', fi: 'hammaslääkäri', img: 'health/dentist.png' },
+        { en: 'doctor', fi: 'lääkäri', img: 'health/doctor.png' },
+        { en: 'fever', fi: 'kuume', img: 'health/fever.png' },
+        { en: 'headache', fi: 'päänsärky', img: 'health/headache.png' },
+        { en: 'health center', fi: 'terveysasema', img: 'health/health_center.png' },
+        { en: 'hospital', fi: 'sairaala', img: 'health/hospital.png' },
+        { en: 'illness', fi: 'sairaus', img: 'health/illness.png' },
+        { en: 'medicine', fi: 'lääke', img: 'health/medicine.png' },
+        { en: 'nurse', fi: 'sairaanhoitaja', img: 'health/nurse.png' },
+        { en: 'pharmacy', fi: 'apteekki', img: 'health/pharmacy.png' },
+        { en: 'pill', fi: 'tabletti', img: 'health/pill.png' },
+        { en: 'runny nose', fi: 'nuha', img: 'health/runny_nose.png' },
+        { en: 'thermometer', fi: 'kuumemittari', img: 'health/thermometer.png' },
+        { en: 'vaccine', fi: 'rokote', img: 'health/vaccine.png' },
+        { en: 'virus', fi: 'virus', img: 'health/virus.png' }
+      ]
+    },
+    
+    {
+      name: 'Paikat — Places',
+      wordsAndImages: [
+        { en: 'airport', fi: 'lentokenttä', img: 'places/airport.png' },
+        { en: 'bakery', fi: 'leipomo', img: 'places/bakery.png' },
+        { en: 'bank', fi: 'pankki', img: 'places/bank.png' },
+        { en: 'bridge', fi: 'silta', img: 'places/bridge.png' },
+        { en: 'bus stop', fi: 'bussipysäkki', img: 'places/bus_stop.png' },
+        { en: 'café', fi: 'kahvila', img: 'places/café.png' },
+        { en: 'fire station', fi: 'palolaitos', img: 'places/fire_station.png' },
+        { en: 'gas station', fi: 'huoltoasema', img: 'places/gas_station.png' },
+        { en: 'grocery store', fi: 'ruokakauppa', img: 'places/grocery_store.png' },
+        { en: 'hospital', fi: 'sairaala', img: 'places/hospital.png' },
+        { en: 'hotel', fi: 'hotelli', img: 'places/hotel.png' },
+        { en: 'left', fi: 'vasen', img: 'places/left.png' },
+        { en: 'library', fi: 'kirjasto', img: 'places/library.png' },
+        { en: 'park', fi: 'puisto', img: 'places/park.png' },
+        { en: 'pharmacy', fi: 'apteekki', img: 'places/pharmacy.png' },
+        { en: 'playground', fi: 'leikkipaikka', img: 'places/playground.png' },
+        { en: 'police station', fi: 'poliisiasema', img: 'places/police_station.png' },
+        { en: 'post office', fi: 'postitoimisto', img: 'places/post_office.png' },
+        { en: 'restaurant', fi: 'ravintola', img: 'places/restaurant.png' },
+        { en: 'right', fi: 'oikea', img: 'places/right.png' },
+        { en: 'road', fi: 'tie', img: 'places/road.png' },
+        { en: 'school', fi: 'koulu', img: 'places/school.png' },
+        { en: 'straight', fi: 'suoraan', img: 'places/straight.png' },
+        { en: 'street', fi: 'katu', img: 'places/street.png' },
+        { en: 'supermarket', fi: 'supermarket', img: 'places/supermarket.png' },
+        { en: 'traffic light', fi: 'liikennevalot', img: 'places/traffic_light.png' },
+        { en: 'train station', fi: 'rautatieasema', img: 'places/train_station.png' },
+        { en: 'tunnel', fi: 'tunneli', img: 'places/tunnel.png' }
+      ]
+    },
+    
+    {
+      name: 'Ostokset ja raha — Shopping and Money',
+      wordsAndImages: [
+        { en: 'ATM', fi: 'pankkiautomaatti', img: 'shopping_and_money/ATM.png' },
+        { en: 'bank', fi: 'pankki', img: 'shopping_and_money/bank.png' },
+        { en: 'banknote', fi: 'seteli', img: 'shopping_and_money/banknote.png' },
+        { en: 'barcode', fi: 'viivakoodi', img: 'shopping_and_money/barcode.png' },
+        { en: 'cash', fi: 'käteinen', img: 'shopping_and_money/cash.png' },
+        { en: 'cashier', fi: 'kassa', img: 'shopping_and_money/cashier.png' },
+        { en: 'checkout', fi: 'kassapiste', img: 'shopping_and_money/checkout.png' },
+        { en: 'coin', fi: 'kolikko', img: 'shopping_and_money/coin.png' },
+        { en: 'credit card', fi: 'luottokortti', img: 'shopping_and_money/credit_card.png' },
+        { en: 'customer', fi: 'asiakas', img: 'shopping_and_money/customer.png' },
+        { en: 'euro banknote', fi: 'euroseteli', img: 'shopping_and_money/euro_banknote.png' },
+        { en: 'grocery store', fi: 'ruokakauppa', img: 'shopping_and_money/grocery_store.png' },
+        { en: 'hardware store', fi: 'rautakauppa', img: 'shopping_and_money/hardware_store.png' },
+        { en: 'kiosk', fi: 'kioski', img: 'shopping_and_money/kiosk.png' },
+        { en: 'mall', fi: 'kauppakeskus', img: 'shopping_and_money/mall.png' },
+        { en: 'money', fi: 'raha', img: 'shopping_and_money/money.png' },
+        { en: 'plastic bag', fi: 'muovipussi', img: 'shopping_and_money/plastic_bag.png' },
+        { en: 'price tag', fi: 'hintalappu', img: 'shopping_and_money/price_tag.png' },
+        { en: 'purse', fi: 'kukkaro', img: 'shopping_and_money/purse.png' },
+        { en: 'receipt', fi: 'kuitti', img: 'shopping_and_money/receipt.png' },
+        { en: 'sale', fi: 'ale', img: 'shopping_and_money/sale.png' },
+        { en: 'shelf', fi: 'hylly', img: 'shopping_and_money/shelf.png' },
+        { en: 'shopping basket', fi: 'ostoskori', img: 'shopping_and_money/shopping_basket.png' },
+        { en: 'shopping cart', fi: 'ostoskärry', img: 'shopping_and_money/shopping_cart.png' },
+        { en: 'shopping mall', fi: 'kauppakeskus', img: 'shopping_and_money/shopping_mall.png' },
+        { en: 'supermarket', fi: 'supermarket', img: 'shopping_and_money/supermarket.png' },
+        { en: 'wallet', fi: 'lompakko', img: 'shopping_and_money/wallet.png' }
+      ]
     },
     {
-      en: 'eat',
-      fi: 'syödä',
-      img: 'verbs1/eat.jfif',
-      popup: 'Minä syön = mä syön = I eat <br/> Sinä syöt = sä syöt = you eat<br/> Hän syö = se syö = he/she eats <br/> Me syömme = me syödään = we eat <br/> Te syötte = te syötte = you all eat <br/> He syövät = ne syö = they eat <br/> Minä söin = mä söin = I ate <br/> Sinä söit = sä söit = you ate'
+      name: 'Teknologia — Technology',
+      wordsAndImages: [
+        { en: 'battery', fi: 'akku', img: 'technology/battery.png' },
+        { en: 'camera', fi: 'kamera', img: 'technology/camera.png' },
+        { en: 'charger', fi: 'laturi', img: 'technology/charger.png' },
+        { en: 'computer', fi: 'tietokone', img: 'technology/computer.png' },
+        { en: 'email', fi: 'sähköposti', img: 'technology/email.png' },
+        { en: 'factory', fi: 'tehdas', img: 'technology/factory.png' },
+        { en: 'headphones', fi: 'kuulokkeet', img: 'technology/headphones.png' },
+        { en: 'keyboard', fi: 'näppäimistö', img: 'technology/keyboard.png' },
+        { en: 'laptop', fi: 'läppäri', img: 'technology/laptop.png' },
+        { en: 'loudspeaker', fi: 'kaiutin', img: 'technology/loudspeaker.png' },
+        { en: 'microphone', fi: 'mikrofoni', img: 'technology/microphone.png' },
+        { en: 'monitor', fi: 'näyttö', img: 'technology/monitor.png' },
+        { en: 'mouse', fi: 'hiiri', img: 'technology/mouse.png' },
+        { en: 'printer', fi: 'tulostin', img: 'technology/printer.png' },
+        { en: 'remote control', fi: 'kaukosäädin', img: 'technology/remote_control.png' },
+        { en: 'robot', fi: 'robotti', img: 'technology/robot.png' },
+        { en: 'smartphone', fi: 'älypuhelin', img: 'technology/smartphone.png' },
+        { en: 'social media', fi: 'sosiaalinen media', img: 'technology/social_media.png' },
+        { en: 'USB stick', fi: 'muistitikku', img: 'technology/USB_stick.png' },
+        { en: 'video call', fi: 'videopuhelu', img: 'technology/video_call.png' },
+        { en: 'website', fi: 'verkkosivusto', img: 'technology/website.png' }
+      ]
     },
+    
     {
-      en: 'give',
-      fi: 'antaa',
-      img: 'verbs1/give.jfif',
-      popup: 'Minä annan = mä annan = I give <br/> Sinä annat = sä annat = you give<br/> Hän antaa = se antaa = he/she gives <br/> Me annamme = me annetaan = we give <br/> Te annatte = te annatte = you all give <br/> He antavat = ne antaa = they give <br/> Minä annoin = mä annoin = I gave <br/> Sinä annoit = sä annoit = you gave'
+      name: 'Sää ja luonto — Weather and Nature',
+      wordsAndImages: [
+        { en: 'cloud', fi: 'pilvi', img: 'weather_and_nature/cloud.png' },
+        { en: 'cold', fi: 'kylmä', img: 'weather_and_nature/cold.png' },
+        { en: 'flower', fi: 'kukka', img: 'weather_and_nature/flower.png' },
+        { en: 'forest', fi: 'metsä', img: 'weather_and_nature/forest.png' },
+        { en: 'grass', fi: 'ruoho', img: 'weather_and_nature/grass.png' },
+        { en: 'hot', fi: 'kuuma', img: 'weather_and_nature/hot.png' },
+        { en: 'lake', fi: 'järvi', img: 'weather_and_nature/lake.png' },
+        { en: 'leaf', fi: 'lehti', img: 'weather_and_nature/leaf.png' },
+        { en: 'mountain', fi: 'vuori', img: 'weather_and_nature/mountain.png' },
+        { en: 'mushroom', fi: 'sieni', img: 'weather_and_nature/mushroom.png' },
+        { en: 'rain', fi: 'sade', img: 'weather_and_nature/rain.png' },
+        { en: 'rainbow', fi: 'sateenkaari', img: 'weather_and_nature/rainbow.png' },
+        { en: 'river', fi: 'joki', img: 'weather_and_nature/river.png' },
+        { en: 'rock', fi: 'kivi', img: 'weather_and_nature/rock.png' },
+        { en: 'sand', fi: 'hiekka', img: 'weather_and_nature/sand.png' },
+        { en: 'sea', fi: 'meri', img: 'weather_and_nature/sea.png' },
+        { en: 'sky', fi: 'taivas', img: 'weather_and_nature/sky.png' },
+        { en: 'snow', fi: 'lumi', img: 'weather_and_nature/snow.png' },
+        { en: 'storm', fi: 'myrsky', img: 'weather_and_nature/storm.png' },
+        { en: 'sun', fi: 'aurinko', img: 'weather_and_nature/sun.png' },
+        { en: 'thermometer', fi: 'lämpömittari', img: 'weather_and_nature/thermometer.png' },
+        { en: 'thunder', fi: 'ukkonen', img: 'weather_and_nature/thunder.png' },
+        { en: 'tree', fi: 'puu', img: 'weather_and_nature/tree.png' },
+        { en: 'warm', fi: 'lämmin', img: 'weather_and_nature/warm.png' },
+        { en: 'wind', fi: 'tuuli', img: 'weather_and_nature/wind.png' }
+      ]
     },
+    
     {
-      en: 'hear',
-      fi: 'kuulla',
-      img: 'verbs1/hear.jfif',
-      popup: 'Minä kuulen = mä kuulen = I hear <br/> Sinä kuulet = sä kuulet = you hear<br/> Hän kuulee = se kuulee = he/she hears <br/> Me kuulemme = me kuullaan = we hear <br/> Te kuulette = te kuulette = you all hear <br/> He kuulevat = ne kuulee = they hear <br/> Minä kuulin = mä kuulin = I heard <br/> Sinä kuulit = sä kuulit = you heard'
+      name: 'Harrastukset — Hobbies',
+      wordsAndImages: [
+        { en: 'badminton', fi: 'sulkapallo', img: 'hobbies/badminton.png' },
+        { en: 'basketball', fi: 'koripallo', img: 'hobbies/basketball.png' },
+        { en: 'cross-country skiing', fi: 'murtomaahiihto', img: 'hobbies/crosscountry_skiing.png' },
+        { en: 'cycling', fi: 'pyöräily', img: 'hobbies/cycling.png' },
+        { en: 'downhill skiing', fi: 'laskettelu', img: 'hobbies/downhill_skiing.png' },
+        { en: 'drums', fi: 'rummut', img: 'hobbies/drums.png' },
+        { en: 'football', fi: 'jalkapallo', img: 'hobbies/football.png' },
+        { en: 'guitar', fi: 'kitara', img: 'hobbies/guitar.png' },
+        { en: 'gym', fi: 'kuntosali', img: 'hobbies/gym.png' },
+        { en: 'hiking', fi: 'vaeltaminen', img: 'hobbies/hiking.png' },
+        { en: 'ice hockey', fi: 'jääkiekko', img: 'hobbies/ice_hockey.png' },
+        { en: 'ice skating', fi: 'luistelu', img: 'hobbies/ice_skating.png' },
+        { en: 'painting', fi: 'maalaus', img: 'hobbies/painting.png' },
+        { en: 'piano', fi: 'piano', img: 'hobbies/piano.png' },
+        { en: 'running', fi: 'juoksu', img: 'hobbies/running.png' },
+        { en: 'singing', fi: 'laulaminen', img: 'hobbies/singing.png' },
+        { en: 'snowboarding', fi: 'lumilautailu', img: 'hobbies/snowboarding.png' },
+        { en: 'swimming', fi: 'uinti', img: 'hobbies/swimming.png' },
+        { en: 'tennis', fi: 'tennis', img: 'hobbies/tennis.png' },
+        { en: 'video game', fi: 'videopeli', img: 'hobbies/video_game.png' },
+        { en: 'yoga', fi: 'jooga', img: 'hobbies/yoga.png' }
+      ]
     },
+    
+    
     {
-      en: 'laugh',
-      fi: 'nauraa',
-      img: 'verbs1/laugh.jfif',
-      popup: 'Minä nauran = mä nauran = I laugh <br/> Sinä naurat = sä naurat = you laugh<br/> Hän nauraa = se nauraa = he/she laughs <br/> Me nauramme = me nauretaan = we laugh <br/> Te nauratte = te nauratte = you all laugh <br/> He nauravat = ne nauraa = they laugh <br/> Minä nauroin = mä nauroin = I laughed <br/> Sinä nauroit = sä nauroit = you laughed'
+      name: 'Kehon osat — Body Parts',
+      wordsAndImages: [
+        { en: 'ankle', fi: 'nilkka', img: 'body_parts/ankle.png' },
+        { en: 'arm', fi: 'käsivarsi', img: 'body_parts/arm.png' },
+        { en: 'back', fi: 'selkä', img: 'body_parts/back.png' },
+        { en: 'chest', fi: 'rinta', img: 'body_parts/chest.png' },
+        { en: 'ear', fi: 'korva', img: 'body_parts/ear.png' },
+        { en: 'elbow', fi: 'kyynärpää', img: 'body_parts/elbow.png' },
+        { en: 'eye', fi: 'silmä', img: 'body_parts/eye.png' },
+        { en: 'face', fi: 'kasvot', img: 'body_parts/face.png' },
+        { en: 'finger', fi: 'sormi', img: 'body_parts/finger.png' },
+        { en: 'foot', fi: 'jalka', img: 'body_parts/foot.png' },
+        { en: 'hair', fi: 'hiukset', img: 'body_parts/hair.png' },
+        { en: 'hand', fi: 'käsi', img: 'body_parts/hand.png' },
+        { en: 'head', fi: 'pää', img: 'body_parts/head.png' },
+        { en: 'heel', fi: 'kantapää', img: 'body_parts/heel.png' },
+        { en: 'knee', fi: 'polvi', img: 'body_parts/knee.png' },
+        { en: 'leg', fi: 'jalka', img: 'body_parts/leg.png' },
+        { en: 'mouth', fi: 'suu', img: 'body_parts/mouth.png' },
+        { en: 'neck', fi: 'kaula', img: 'body_parts/neck.png' },
+        { en: 'nose', fi: 'nenä', img: 'body_parts/nose.png' },
+        { en: 'shoulder', fi: 'olkapää', img: 'body_parts/shoulder.png' },
+        { en: 'stomach', fi: 'vatsa', img: 'body_parts/stomach.png' },
+        { en: 'thumb', fi: 'peukalo', img: 'body_parts/thumb.png' },
+        { en: 'toe', fi: 'varvas', img: 'body_parts/toe.png' },
+        { en: 'wrist', fi: 'ranne', img: 'body_parts/wrist.png' }
+      ]
     },
+    
     {
-      en: 'lift',
-      fi: 'nostaa',
-      img: 'verbs1/lift.jfif',
-      popup: 'Minä nostan = mä nostan = I lift <br/> Sinä nostat = sä nostat = you lift<br/> Hän nostaa = se nostaa = he/she lifts <br/> Me nostamme = me nostetaan = we lift <br/> Te nostatte = te nostatte = you all lift <br/> He nostavat = ne nostaa = they lift <br/> Minä nostin = mä nostin = I lifted <br/> Sinä nostit = sä nostit = you lifted'
-    },
-    {
-      en: 'listen',
-      fi: 'kuunnella',
-      img: 'verbs1/listen.jfif',
-      popup: 'Minä kuuntelen = mä kuuntelen = I listen <br/> Sinä kuuntelet = sä kuuntelet = you listen<br/> Hän kuuntelee = se kuuntelee = he/she listens <br/> Me kuuntelemme = me kuunnellaan = we listen <br/> Te kuuntelette = te kuuntelette = you all listen <br/> He kuuntelevat = ne kuuntelee = they listen <br/> Minä kuuntelin = mä kuuntelin = I listened <br/> Sinä kuuntelit = sä kuuntelit = you listened'
-    },
-    {
-      en: 'look',
-      fi: 'katsoa',
-      img: 'verbs1/look.jfif',
-      popup: 'Minä katson = mä katon = I look <br/> Sinä katsot = sä katot = you look<br/> Hän katsoo = se kattoo = he/she looks <br/> Me katsomme = me katotaan = we look <br/> Te katsotte = te katotte = you all look <br/> He katsovat = ne kattoo = they look <br/> Minä katsoin = mä katoin = I looked <br/> Sinä katoit = sä katsoit = you looked'
-    },
- { en: 'open', fi: 'avata', img: 'verbs1/open.jfif', popup: 'Minä avaan = mä avaan = I open<br/>Sinä avaat = sä avaat = you open<br/>Hän avaa = se avaa = he/she opens<br/>Me avaamme = me avataan = we open<br/>Te avaatte = te avaatte = you all open<br/>He avaavat = ne avaa = they open<br/>Minä avasin = mä avasin = I opened<br/>Sinä avasit = sä avasit = you opened' },
-{ en: 'pull', fi: 'vetää', img: 'verbs1/pull.jfif', popup: 'Minä vedän = mä vedän = I pull<br/>Sinä vedät = sä vedät = you pull<br/>Hän vetää = se vetää = he/she pulls<br/>Me vedämme = me vedetään = we pull<br/>Te vedätte = te vedätte = you all pull<br/>He vetävät = ne vetää = they pull<br/>Minä vedin = mä vedin = I pulled<br/>Sinä vedit = sä vedit = you pulled' },
-{ en: 'push', fi: 'työntää', img: 'verbs1/push.jfif', popup: 'Minä työnnän = mä työnnän = I push<br/>Sinä työnnät = sä työnnät = you push<br/>Hän työntää = se työntää = he/she pushes<br/>Me työnnämme = me työnnetään = we push<br/>Te työnnätte = te työnnätte = you all push<br/>He työntävät = ne työntää = they push<br/>Minä työnsin = mä työnsin = I pushed<br/>Sinä työnsit = sä työnsit = you pushed' },
-{ en: 'run', fi: 'juosta', img: 'verbs1/run.jfif', popup: 'Minä juoksen = mä juoksen = I run<br/>Sinä juokset = sä juokset = you run<br/>Hän juoksee = se juoksee = he/she runs<br/>Me juoksemme = me juostaan = we run<br/>Te juoksette = te juoksette = you all run<br/>He juoksevat = ne juoksee = they run<br/>Minä juoksin = mä juoksin = I ran<br/>Sinä juoksit = sä juoksit = you ran' },
-{ en: 'say', fi: 'sanoa', img: 'verbs1/say.jfif', popup: 'Minä sanon = mä sanon = I say<br/>Sinä sanot = sä sanot = you say<br/>Hän sanoo = se sanoo = he/she says<br/>Me sanomme = me sanotaan = we say<br/>Te sanotte = te sanotte = you all say<br/>He sanovat = ne sanoo = they say<br/>Minä sanoin = mä sanoin = I said<br/>Sinä sanoit = sä sanoit = you said' },
-{ en: 'see', fi: 'nähdä', img: 'verbs1/see.jfif', popup: 'Minä näen = mä nään = I see<br/>Sinä näet = sä näät = you see<br/>Hän näkee = se näkee = he/she sees<br/>Me näemme = me nähdään = we see<br/>Te näette = te näette = you all see<br/>He näkevät = ne näkee = they see<br/>Minä näin = mä näin = I saw<br/>Sinä näit = sä näit = you saw' },
-{ en: 'sit', fi: 'istua', img: 'verbs1/sit.jfif', popup: 'Minä istun = mä istun = I sit<br/>Sinä istut = sä istut = you sit<br/>Hän istuu = se istuu = he/she sits<br/>Me istumme = me istutaan = we sit<br/>Te istutte = te istutte = you all sit<br/>He istuvat = ne istuu = they sit<br/>Minä istuin = mä istuin = I sat<br/>Sinä istuit = sä istuit = you sat' },
-{ en: 'sleep', fi: 'nukkua', img: 'verbs1/sleep.jfif', popup: 'Minä nukun = mä nukun = I sleep<br/>Sinä nukut = sä nukut = you sleep<br/>Hän nukkuu = se nukkuu = he/she sleeps<br/>Me nukumme = me nukutaan = we sleep<br/>Te nukutte = te nukutte = you all sleep<br/>He nukkuvat = ne nukkuu = they sleep<br/>Minä nukuin = mä nukuin = I slept<br/>Sinä nukuit = sä nukuit = you slept' },
-{ en: 'talk', fi: 'puhua', img: 'verbs1/talk.jfif', popup: 'Minä puhun = mä puhun = I talk<br/>Sinä puhut = sä puhut = you talk<br/>Hän puhuu = se puhuu = he/she talks<br/>Me puhumme = me puhutaan = we talk<br/>Te puhutte = te puhutte = you all talk<br/>He puhuvat = ne puhuu = they talk<br/>Minä puhuin = mä puhuin = I talked<br/>Sinä puhuit = sä puhuit = you talked' },
-{ en: 'think', fi: 'ajatella', img: 'verbs1/think.jfif', popup: 'Minä ajattelen = mä ajattelen = I think<br/>Sinä ajattelet = sä ajattelet = you think<br/>Hän ajattelee = se ajattelee = he/she thinks<br/>Me ajattelemme = me ajatellaan = we think<br/>Te ajattelette = te ajattelette = you all think<br/>He ajattelevat = ne ajattelee = they think<br/>Minä ajattelin = mä ajattelin = I thought<br/>Sinä ajattelit = sä ajattelit = you thought' },
-{ en: 'walk', fi: 'kävellä', img: 'verbs1/walk.jfif', popup: 'Minä kävelen = mä kävelen = I walk<br/>Sinä kävelet = sä kävelet = you walk<br/>Hän kävelee = se kävelee = he/she walks<br/>Me kävelemme = me kävellään = we walk<br/>Te kävelette = te kävelette = you all walk<br/>He kävelevät = ne kävelee = they walk<br/>Minä kävelin = mä kävelin = I walked<br/>Sinä kävelit = sä kävelit = you walked' },
-{ en: 'want', fi: 'haluta', img: 'verbs1/want.jfif', popup: 'Minä haluan = mä haluun = I want<br/>Sinä haluat = sä haluut = you want<br/>Hän haluaa = se haluu = he/she wants<br/>Me haluamme = me halutaan = we want<br/>Te haluatte = te haluatte = you all want<br/>He haluavat = ne haluu = they want<br/>Minä halusin = mä halusin = I wanted<br/>Sinä halusit = sä halusit = you wanted' },
-{ en: 'wash', fi: 'pestä', img: 'verbs1/wash.jfif', popup: 'Minä pesen = mä pesen = I wash<br/>Sinä peset = sä peset = you wash<br/>Hän pesee = se pesee = he/she washes<br/>Me pesemme = me pestään = we wash<br/>Te pesette = te pesette = you all wash<br/>He pesevät = ne pesee = they wash<br/>Minä pesin = mä pesin = I washed<br/>Sinä pesit = sä pesit = you washed' },
-{ en: 'write', fi: 'kirjoittaa', img: 'verbs1/write.jfif', popup: 'Minä kirjoitan = mä kirjotan = I write<br/>Sinä kirjoitat = sä kirjotat = you write<br/>Hän kirjoittaa = se kirjottaa = he/she writes<br/>Me kirjoitamme = me kirjotetaan = we write<br/>Te kirjoitatte = te kirjotatte = you all write<br/>He kirjoittavat = ne kirjottaa = they write<br/>Minä kirjoitin = mä kirjotin = I wrote<br/>Sinä kirjoitit = sä kirjotit = you wrote' }
-
-  ]
-},
-
-
-{
-  name: 'Verbit 2 — More Verbs',
-  wordsAndImages: [
-    {
-      en: 'blow', fi: 'puhaltaa', img: 'verbs2/blow.jfif',
-      popup: 'Minä puhallan = mä puhallan = I blow\nSinä puhallat = sä puhallat = you blow\nHän puhaltaa = se puhaltaa = he/she blows\nMe puhallamme = me puhalletaan = we blow\nTe puhutte = te puhutte = you all blow\nHe puhaltavat = ne puhaltaa = they blow\nMinä puhalsin = mä puhalsin = I blew\nSinä puhalsit = sä puhalsit = you blew'
-    },
-    {
-      en: 'clean', fi: 'siivota', img: 'verbs2/clean.jfif',
-      popup: 'Minä siivoan = mä siivoon = I clean\nSinä siivoat = sä siivoot = you clean\nHän siivoaa = se siivoo = he/she cleans\nMe siivoamme = me siivotaan = we clean\nTe siivoatte = te siivootte = you all clean\nHe siivoavat = ne siivoo = they clean\nMinä siivosin = mä siivosin = I cleaned\nSinä siivosit = sä siivosit = you cleaned'
-    },
-    {
-      en: 'cry', fi: 'itkeä', img: 'verbs2/cry.jfif',
-      popup: 'Minä itken = mä itken = I cry\nSinä itket = sä itket = you cry\nHän itkee = se itkee = he/she cries\nMe itkemme = me itketään = we cry\nTe itkette = te itkette = you all cry\nHe itkevät = ne itkee = they cry\nMinä itkin = mä itkin = I cried\nSinä itkit = sä itkit = you cried'
-    },
-    {
-      en: 'dig', fi: 'kaivaa', img: 'verbs2/dig.jfif',
-      popup: 'Minä kaivan = mä kaivan = I dig\nSinä kaivat = sä kaivat = you dig\nHän kaivaa = se kaivaa = he/she digs\nMe kaivamme = me kaivetaan = we dig\nTe kaivatte = te kaivatte = you all dig\nHe kaivavat = ne kaivaa = they dig\nMinä kaivoin = mä kaivoin = I dug\nSinä kaivoit = sä kaivoit = you dug'
-    },
-    {
-      en: 'draw', fi: 'piirtää', img: 'verbs2/draw.jfif',
-      popup: 'Minä piirrän = mä piirrän = I draw\nSinä piirrät = sä piirrät = you draw\nHän piirtää = se piirtää = he/she draws\nMe piirrämme = me piirretään = we draw\nTe piirrätte = te piirrätte = you all draw\nHe piirtävät = ne piirtää = they draw\nMinä piirsin = mä piirsin = I drew\nSinä piirsit = sä piirsit = you drew'
-    },
-    {
-      en: 'fall', fi: 'pudota', img: 'verbs2/fall.jfif',
-      popup: 'Minä putoan = mä putoon = I fall\nSinä putoat = sä putoot = you fall\nHän putoaa = se putoo = he/she falls\nMe putoamme = me pudotaan = we fall\nTe putoatte = te putootte = you all fall\nHe putoavat = ne putoo = they fall\nMinä putosin = mä putosin = I fell\nSinä putosit = sä putosit = you fell'
-    },
-    {
-      en: 'find', fi: 'löytää', img: 'verbs2/find.jfif',
-      popup: 'Minä löydän = mä löydän = I find\nSinä löydät = sä löydät = you find\nHän löytää = se löytää = he/she finds\nMe löydämme = me löydetään = we find\nTe löydätte = te löydätte = you all find\nHe löytävät = ne löytää = they find\nMinä löysin = mä löysin = I found\nSinä löysit = sä löysit = you found'
-    },
-    {
-      en: 'hide', fi: 'piiloutua', img: 'verbs2/hide.jfif',
-      popup: 'Minä piiloudun = mä piiloudun = I hide\nSinä piiloudut = sä piiloudut = you hide\nHän piiloutuu = se piiloutuu = he/she hides\nMe piiloudumme = me piiloudutaan = we hide\nTe piiloudutte = te piiloudutte = you all hide\nHe piiloutuvat = ne piiloutuu = they hide\nMinä piilouduin = mä piilouduin = I hid\nSinä piilouduit = sä piilouduit = you hid'
-    },
-    {
-      en: 'hug', fi: 'halata', img: 'verbs2/hug.jfif',
-      popup: 'Minä halaan = mä halaan = I hug\nSinä halaat = sä halaat = you hug\nHän halaa = se halaa = he/she hugs\nMe halaamme = me halataan = we hug\nTe halaatte = te halaatte = you all hug\nHe halaavat = ne halaa = they hug\nMinä halasin = mä halasin = I hugged\nSinä halasit = sä halasit = you hugged'
-    },
-    {
-      en: 'jump', fi: 'hypätä', img: 'verbs2/jump.jfif',
-      popup: 'Minä hyppään = mä hyppään = I jump\nSinä hyppäät = sä hyppäät = you jump\nHän hyppää = se hyppää = he/she jumps\nMe hyppäämme = me hypätään = we jump\nTe hyppäätte = te hyppäätte = you all jump\nHe hyppäävät = ne hyppää = they jump\nMinä hyppäsin = mä hyppäsin = I jumped\nSinä hyppäsit = sä hyppäsit = you jumped'
-    },
-
-    {
-      en: 'kiss', fi: 'suudella', img: 'verbs2/kiss.jfif',
-      popup: 'Minä suutelen = mä suutelen = I kiss\nSinä suutelit = sä suutelit = you kiss\nHän suutelee = se suutelee = he/she kisses\nMe suutelemme = me suudellaan = we kiss\nTe suutelette = te suutelette = you all kiss\nHe suutelevat = ne suutelee = they kiss\nMinä suutelin = mä suutelin = I kissed\nSinä suutelit = sä suutelit = you kissed'
-    },
-    {
-      en: 'lie down', fi: 'maata', img: 'verbs2/lie_down.jfif',
-      popup: 'Minä makaan = mä makaan = I lie down\nSinä makaat = sä makaat = you lie down\nHän makaa = se makaa = he/she lies down\nMe makaamme = me maataan = we lie down\nTe makaatte = te makaatte = you all lie down\nHe makaavat = ne makaa = they lie down\nMinä makasin = mä makasin = I lay down\nSinä makasit = sä makasit = you lay down'
-    },
-    {
-      en: 'paint', fi: 'maalata', img: 'verbs2/paint.jfif',
-      popup: 'Minä maalaan = mä maalaan = I paint\nSinä maalaat = sä maalaat = you paint\nHän maalaa = se maalaa = he/she paints\nMe maalaamme = me maalataan = we paint\nTe maalaatte = te maalaatte = you all paint\nHe maalaavat = ne maalaa = they paint\nMinä maalasin = mä maalasin = I painted\nSinä maalasit = sä maalasit = you painted'
-    },
-    {
-      en: 'pay', fi: 'maksaa', img: 'verbs2/pay.jfif',
-      popup: 'Minä maksan = mä maksan = I pay\nSinä maksat = sä maksat = you pay\nHän maksaa = se maksaa = he/she pays\nMe maksamme = me maksetaan = we pay\nTe maksatte = te maksatte = you all pay\nHe maksavat = ne maksaa = they pay\nMinä maksoin = mä maksoin = I paid\nSinä maksoit = sä maksoit = you paid'
-    },
-    {
-      en: 'plant', fi: 'istuttaa', img: 'verbs2/plant.jfif',
-      popup: 'Minä istutan = mä istutan = I plant\nSinä istutat = sä istutat = you plant\nHän istuttaa = se istuttaa = he/she plants\nMe istutamme = me istutetaan = we plant\nTe istutatte = te istutatte = you all plant\nHe istuttavat = ne istuttaa = they plant\nMinä istutin = mä istutin = I planted\nSinä istutit = sä istutit = you planted'
-    },
-    {
-      en: 'ski', fi: 'hiihtää', img: 'verbs2/ski.jfif',
-      popup: 'Minä hiihdän = mä hiihdän = I ski\nSinä hiihdät = sä hiihdät = you ski\nHän hiihtää = se hiihtää = he/she skis\nMe hiihdämme = me hiihdetään = we ski\nTe hiihdätte = te hiihdätte = you all ski\nHe hiihtävät = ne hiihtää = they ski\nMinä hiihdin = mä hiihdin = I skied\nSinä hiihdit = sä hiihdit = you skied'
-    },
-    {
-      en: 'ski downhill', fi: 'lasketella', img: 'verbs2/ski_downhill.jfif',
-      popup: 'Minä laskettelen = mä laskettelen = I ski downhill\nSinä lasket­telet = sä lasket­telet = you ski downhill\nHän laskettelee = se laskettelee = he/she skis downhill\nMe laskettelemme = me lasketellaan = we ski downhill\nTe laskettelette = te laskettelette = you all ski downhill\nHe laskettelevat = ne laskettelee = they ski downhill\nMinä laskettelin = mä laskettelin = I skied downhill\nSinä laskettelit = sä laskettelit = you skied downhill'
-    },
-    {
-      en: 'smell', fi: 'haistaa', img: 'verbs2/smell.jfif',
-      popup: 'Minä haistan = mä haistan = I smell\nSinä haistat = sä haistat = you smell\nHän haistaa = se haistaa = he/she smells\nMe haistamme = me haistetaan = we smell\nTe haistatte = te haistatte = you all smell\nHe haistavat = ne haistaa = they smell\nMinä haistoin = mä haistoin = I smelled\nSinä haistoit = sä haistoit = you smelled'
-    },
-    {
-      en: 'swim', fi: 'uida', img: 'verbs2/swim.jfif',
-      popup: 'Minä uin = mä uin = I swim\nSinä uit = sä uit = you swim\nHän ui = se ui = he/she swims\nMe uimme = me uidaan = we swim\nTe uitte = te uitte = you all swim\nHe uivat = ne ui = they swim\nMinä uin = mä uin = I swam\nSinä uit = sä uit = you swam'
-    },
-    {
-      en: 'taste', fi: 'maistaa', img: 'verbs2/taste.jfif',
-      popup: 'Minä maistan = mä maistan = I taste\nSinä maistat = sä maistat = you taste\nHän maistaa = se maistaa = he/she tastes\nMe maistamme = me maistetaan = we taste\nTe maistatte = te maistatte = you all taste\nHe maistavat = ne maistaa = they taste\nMinä maistoin = mä maistoin = I tasted\nSinä maistoit = sä maistoit = you tasted'
-    },
-    {
-      en: 'throw', fi: 'heittää', img: 'verbs2/throw.jfif',
-      popup: 'Minä heitän = mä heitän = I throw\nSinä heität = sä heität = you throw\nHän heittää = se heittää = he/she throws\nMe heitämme = me heitetään = we throw\nTe heitätte = te heitätte = you all throw\nHe heittävät = ne heittää = they throw\nMinä heitin = mä heitin = I threw\nSinä heitit = sä heitit = you threw'
-    },
-    {
-      en: 'vacuum', fi: 'imuroida', img: 'verbs2/vacuum.jfif',
-      popup: 'Minä imuroin = mä imuroin = I vacuum\nSinä imuroit = sä imuroit = you vacuum\nHän imuroi = se imuroi = he/she vacuums\nMe imuroimme = me imuroidaan = we vacuum\nTe imuroitte = te imuroitte = you all vacuum\nHe imuroivat = ne imuroi = they vacuum\nMinä imuroin = mä imuroin = I vacuumed\nSinä imuroit = sä imuroit = you vacuumed'
-    },
-    {
-      en: 'wake up', fi: 'herätä', img: 'verbs2/wake_up.jfif',
-      popup: 'Minä herään = mä herään = I wake up\nSinä heräät = sä heräät = you wake up\nHän herää = se herää = he/she wakes up\nMe heräämme = me herätään = we wake up\nTe heräätte = te heräätte = you all wake up\nHe heräävät = ne herää = they wake up\nMinä heräsin = mä heräsin = I woke up\nSinä heräsit = sä heräsit = you woke up'
+      name: 'Numerot ja aika — Numbers and Time',
+      wordsAndImages: [
+        { en: 'one', fi: 'yksi', img: 'numbers_and_time/one.png' },
+        { en: 'two', fi: 'kaksi', img: 'numbers_and_time/two.png' },
+        { en: 'three', fi: 'kolme', img: 'numbers_and_time/three.png' },
+        { en: 'four', fi: 'neljä', img: 'numbers_and_time/four.png' },
+        { en: 'five', fi: 'viisi', img: 'numbers_and_time/five.png' },
+        { en: 'six', fi: 'kuusi', img: 'numbers_and_time/six.png' },
+        { en: 'seven', fi: 'seitsemän', img: 'numbers_and_time/seven.png' },
+        { en: 'eight', fi: 'kahdeksan', img: 'numbers_and_time/eight.png' },
+        { en: 'nine', fi: 'yhdeksän', img: 'numbers_and_time/nine.png' },
+        { en: 'ten', fi: 'kymmenen', img: 'numbers_and_time/ten.png' },
+        { en: 'clock', fi: 'kello', img: 'numbers_and_time/clock.png' },
+        { en: 'hour', fi: 'tunti', img: 'numbers_and_time/hour.png' },
+        { en: 'minute', fi: 'minuutti', img: 'numbers_and_time/minute.png' },
+        { en: 'second', fi: 'sekunti', img: 'numbers_and_time/second.png' },
+        { en: 'calendar', fi: 'kalenteri', img: 'numbers_and_time/calendar.png' },
+        { en: 'monday', fi: 'maanantai', img: 'numbers_and_time/monday.png' },
+        { en: 'tuesday', fi: 'tiistai', img: 'numbers_and_time/tuesday.png' },
+        { en: 'wednesday', fi: 'keskiviikko', img: 'numbers_and_time/wednesday.png' },
+        { en: 'thursday', fi: 'torstai', img: 'numbers_and_time/thursday.png' },
+        { en: 'friday', fi: 'perjantai', img: 'numbers_and_time/friday.png' },
+        { en: 'saturday', fi: 'lauantai', img: 'numbers_and_time/saturday.png' },
+        { en: 'sunday', fi: 'sunnuntai', img: 'numbers_and_time/sunday.png' },
+        { en: 'week', fi: 'viikko', img: 'numbers_and_time/week.png' },
+        { en: 'weekend', fi: 'viikonloppu', img: 'numbers_and_time/weekend.png' },
+        { en: 'month', fi: 'kuukausi', img: 'numbers_and_time/month.png' },
+        { en: 'morning', fi: 'aamu', img: 'numbers_and_time/morning.png' },
+        { en: 'evening', fi: 'ilta', img: 'numbers_and_time/evening.png' },
+        { en: 'night', fi: 'yö', img: 'numbers_and_time/night.png' },
+        { en: 'spring', fi: 'kevät', img: 'numbers_and_time/spring.png' },
+        { en: 'summer', fi: 'kesä', img: 'numbers_and_time/summer.png' },
+        { en: 'autumn', fi: 'syksy', img: 'numbers_and_time/autumn.png' },
+        { en: 'winter', fi: 'talvi', img: 'numbers_and_time/winter.png' }
+      ]
     }
-  ]
-}
-
-]
+    
+    
+    
+    
+    
+    
+    
+    
+    ]
